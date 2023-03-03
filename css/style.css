@@ -1,11 +1,17 @@
-nav {
-    
-    margin-right: 50px; 
-    margin-top: 16px; 
-    margin-bottom: 16px; 
-    margin-left: 50px;
-}
-
+/*Navigation bar*/
+.nav-link {
+	text-decoration: none;
+	display: inline-block;
+	padding: 13px 13px;
+	color: #212529;
+	margin-right: 5px;
+  }
+  
+  .nav-link:hover {
+	text-decoration:none;
+	border-bottom: 2px solid #84e7ee;
+  }
+  
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"); 
 h1 {
@@ -38,8 +44,8 @@ input {
 
 
 .footer-distributed{
-	background-color: #292c2f;
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	background-color: #b0c7c7;
+	box-shadow: 0 1px 1px 0 rgba(5, 110, 52, 0.12);
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
@@ -67,7 +73,7 @@ input {
 }
 
 .footer-distributed h3 span{
-	color:  #5383d3;
+	color:  #826c9b;
 }
 
 
@@ -85,7 +91,7 @@ input {
 }
 
 .footer-distributed .footer-portfolio-name{
-	color:  #8f9296;
+	color:  #373d3d;
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0;
