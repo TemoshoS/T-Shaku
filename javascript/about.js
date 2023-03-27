@@ -23,7 +23,7 @@ document.getElementById("project").innerHTML = "Projects";
 
 
 
-document.getElementById("unfinishedprojects").innerHTML = "<li> File Management System</li><li> Que Management System <li> Ecommerce website</li>";
+document.getElementById("unfinishedprojects").innerHTML = "<li> File Management System</li><li> Que Management System </><li> Ecommerce website</li><li> Food Blog</li><li> </li>";
 
 
 document.getElementById("reference").innerHTML = "References";
